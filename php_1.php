@@ -66,4 +66,116 @@ correggi eventuali errori e stampa correttamente a terminale la stringa: “Marc
 
 
 
+/* - 
+
+Traccia 3:
+Dati i seguenti array:
+$words1 = [
+  'una',
+  67,
+  'vita',
+  'colle',
+  'mi',
+  'rosso',
+  [
+    'oscura',
+    'era',
+    89,
+    [
+      'mezzo',
+      [
+        'cammin',
+        'Nel',
+        [
+          'selva',
+          'la',
+          [
+            'via',
+            'una',
+            true,
+          ]
+        ],
+      ]
+    ],
+    'ritrovai',
+    'per'
+  ],
+  'diritta'
+];
+
+$words2 = [
+  'elemento1' => 25.89,
+  'elemento2' => 'nostra',
+  'elemento3' => [
+    'Virgilio',
+    'smarrita',
+    'ché'
+  ]
+];
+
+Crea una variabile di tipo Stringa chiamata $results che stampi a terminale il seguente testo, attraverso l’accesso agli array sopra: “Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita“.
+HINT:
+Non tutti gli elementi all’interno dell’array sono utili, e alcuni elementi mancano proprio. Scegli come risolvere il problema nel modo più opportuno: nuove variabili, concatenamenti, ecc ecc.
+
+*/
+
+
+// $words1 = [
+//     'una',
+//     67,
+//     'vita',
+//     'colle',
+//     'mi',
+//     'rosso',
+//     [
+//       'oscura',
+//       'era',
+//       89,
+//       [
+//         'mezzo',
+//         [
+//           'cammin',
+//           'Nel',
+//           [
+//             'selva',
+//             'la',
+//             [
+//               'via',
+//               'una',
+//               true,
+//             ]
+//           ],
+//         ]
+//       ],
+//       'ritrovai',
+//       'per'
+//     ],
+//     'diritta'
+//   ];
+  
+//   $words2 = [
+//     'elemento1' => 25.89,
+//     'elemento2' => 'nostra',
+//     'elemento3' => [
+//       'Virgilio',
+//       'smarrita',
+//       'ché'
+//     ]
+//   ];
+
+//   $words3 = [
+//     "del",
+//     "di",
+//     ",",
+//     " "
+
+//   ];
+//  $words3[3].
+//  var_dump($words2["elemento2"]);
+
+//  $result = $words1[6][3][1][1].$words3[3].$words1[6][3][0].$words3[3].$words3[0].$words3[3].$words1[6][3][1][0].$words3[3].$words3[1].$words3[3].$words2["elemento2"].$words3[3].$words1[2].$words3[3].$words1[4].$words3[3].$words1[6][4].$words3[3].$words1[6][5].$words3[3].$words1[0].$words3[3].$words1[6][3][1][2][0].$words3[3].$words1[6][0].$words3[2].$words2["elemento3"][2].$words3[3].$words1[6][3][1][2][1].$words3[3].$words1[7].$words3[3].$words1[6][3][1][2][2][0].$words3[3].$words1[6][1].$words3[3].$words2["elemento3"][1];
+
+// echo $result
+
+
 ?>
